@@ -13,6 +13,7 @@ int main(){
     int n;
     cin >> n;
     vector<pair<int,int>> a(n);
+    // Input value and weight of each item
     for(int i=0;i<n;i++){
         cin >> a[i].first >> a[i].second;
     }
